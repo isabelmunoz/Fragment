@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fragment_guide_01</string>
+    <string name="question_one">¿Conoces este Meme?</string>
+    <string name="yes_message">¡Si lo conozco!</string>
+    <string name="no_message">No... buuu...</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+</resources>
