@@ -7,14 +7,13 @@
     android:layout_height="wrap_content"
     tools:context=".BlankFragment">
 
-<TextView
-    android:id="@+id/fragment_header"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:theme="@style/TextAppearance.AppCompat.Headline"
-    android:text="@string/question_one"
-    android:textColor="#fff"
-    android:padding="4dp"/>
+    <TextView
+        android:id="@+id/fragment_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_one"
+        android:textColor="#fff"
+        android:padding="4dp"/>
 
     <RadioGroup
         android:id="@+id/radio_group"
