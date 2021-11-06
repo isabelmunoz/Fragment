@@ -14,6 +14,10 @@ import com.crisspian.fragment_guide_01.databinding.FragmentBlankBinding;
 
 public class BlankFragment extends Fragment {
 
+    public static BlankFragment newInstance(){
+        return new BlankFragment();
+    }
+
     private FragmentBlankBinding binding;
     public static final int YES = 0;
     public static final int NO = 1;
@@ -25,11 +29,11 @@ public class BlankFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    super.onCreate(savedInstanceState);
     }
 
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         initBinding(inflater,container);
         setupListener();

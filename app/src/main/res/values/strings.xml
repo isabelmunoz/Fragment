@@ -5,4 +5,6 @@
     <string name="no_message">No... buuu...</string>
     <string name="yes">Si</string>
     <string name="no">No</string>
+    <string name="open">Abrir Fragment</string>
+    <string name="close">Cerrar Fragment</string>
 </resources>
